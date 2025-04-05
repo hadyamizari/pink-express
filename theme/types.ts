@@ -1,5 +1,7 @@
 import {MD3Typescale} from 'react-native-paper/lib/typescript/types'
 
+// Interface
+
 export interface Theme {
   version?: number
   isV3?: boolean
