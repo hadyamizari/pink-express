@@ -1,13 +1,13 @@
 import {MD3Typescale} from 'react-native-paper/lib/typescript/types'
 
-// Interface
-
+// Theme Interface
 export interface Theme {
   version?: number
   isV3?: boolean
   dark: boolean
   roundness: number
   fonts?: MD3Typescale
+  // Coulors
   colors: {
     card: string
     text?: string
