@@ -1,6 +1,7 @@
 import {DefaultTheme} from 'react-native-paper'
 import {Theme} from './types'
 
+// Default Dark Theme
 const DarkTheme: Theme = {
   ...DefaultTheme,
   dark: true,

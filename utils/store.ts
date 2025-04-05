@@ -1,9 +1,11 @@
 import {create} from 'zustand'
 
 export type StoreOptions = {
+  // Checks if is dark
   isDark: boolean
   switchIsDark: (dark: boolean) => void
 
+  // Checks language
   language: 'en' | 'ar' | 'fr' | string
   switchLanguage: (newLanguage: string) => void
 }
