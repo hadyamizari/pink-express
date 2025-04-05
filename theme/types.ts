@@ -7,6 +7,7 @@ export interface Theme {
   dark: boolean
   roundness: number
   fonts?: MD3Typescale
+  // Colors
   colors: {
     card: string
     text?: string
